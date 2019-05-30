@@ -1,0 +1,46 @@
+ h1 {
+    text-align: center;
+    font-size: 10rem;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  
+button {
+      display: block;
+      background-color: #ff4800;
+      border-radius: 30%;
+      color: white;
+      box-shadow: -1px 1px 6px 1px rgba(0,0,0,0.55);
+      outline: none;
+      border: none;
+      padding: 8px;
+      margin: 0 auto;
+      transform: scale(1);
+  }
+  
+  button[disabled] {
+    background-color: rgba(119, 119, 119, 0.616);
+    text-decoration: line-through;
+  }
+  
+  button:active {
+      transform: scale(1.1)
+  }
+  
+  .score {
+    background: rgba(255,255,255,0.2);
+    padding: 0 3rem;
+    line-height: 1;
+    border-radius: 1rem;
+  }
+  
+  .game {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  
+
